@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Azure Code</title>
+    <link rel="stylesheet" href="public/css/materialize.min.css" />
+    <link rel="stylesheet" href="public/styles.css" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo grey-text text-darken-2 col s10"
+          >Esenwa Code</a
+        >
+        <a
+          href="#"
+          data-activates="mobile-menu"
+          class="button-collapse hide-on-med-and-up col s2"
+          ><i class="material-icons">menu</i></a
+        >
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#" class="grey-text text-darken-2">Home</a></li>
+          <li><a href="#" class="grey-text text-darken-2">Profile</a></li>
+          <li><a href="#" class="grey-text text-darken-2">About Us</a></li>
+          <li><a href="#" class="grey-text text-darken-2">Contact Us</a></li>
+        </ul>
+        <ul class="side-nav hide-on-med-and-up" id="mobile-menu">
+          <li><a href="#" class="grey-text text-darken-2">item1</a></li>
+          <li><a href="#" class="grey-text text-darken-2">item2</a></li>
+          <li><a href="#" class="grey-text text-darken-2">item3</a></li>
+          <li><a href="#" class="grey-text text-darken-2">item4</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="row">
+      <div class="section col l3 m4 s12">
+        <div class="card pr">
+          <div class="card-image">
+            <img
+              src="public/background2.jpg"
+              id="im1"
+              style="overflow: hidden"
+            />
+          </div>
+          <div style="top: -60px; position: relative" class="center">
+            <a href="#">
+              <img
+                src="public/background3.jpg"
+                class="circle prof btn-floating"
+              />
+              <h5 class="title">Kachukwu Esenwa</h5>
+              <p class="description">@kcMikee</p>
+            </a>
+            <div class="card-content">
+              <span class="card-title">About Me</span>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+                tenetur laborum doloribus fugiat quos ratione nisi numquam
+                cumque a, pariatur nam nemo quam quas alias quia voluptatum?
+                Cum, blanditiis ad!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section col l8 m7 s12">
+        <div class="card pr">
+          <div class="teal" style="top: -60px; margin: 0 30px">
+            <h6 class="header white-text" style="padding: 25px 25px">
+              Edit Profile
+            </h6>
+          </div>
+          <form action="">
+            <div class="input-field col s12 l4">
+              <input
+                type="text"
+                id="first_name"
+                class="validate"
+                value="Esenwa Code"
+                disabled
+              />
+              <label for="first_name">Company</label>
+            </div>
+            <div class="input-field col s12 l4">
+              <input
+                type="text"
+                id="last_name"
+                class="validate"
+                value="kcMikee"
+              />
+              <label for="last_name">Username</label>
+            </div>
+            <div class="input-field col s12 l4">
+              <input
+                type="email"
+                id="email"
+                class="validate"
+                value="michael.esenwa@gmail.com"
+              />
+              <label for="email" data-error="wrong" data-success="right"
+                >Email Address</label
+              >
+            </div>
+            <div class="input-field col s12 l6">
+              <input
+                type="text"
+                id="last_name"
+                class="validate"
+                value="Kachukwu"
+              />
+              <label for="last_name">First Name</label>
+            </div>
+            <div class="input-field col s12 l6">
+              <input
+                type="text"
+                id="last_name"
+                class="validate"
+                value="Esenwa"
+              />
+              <label for="last_name">Last Name</label>
+            </div>
+            <div class="input-field col s12">
+              <textarea
+                id="textarea1"
+                class="materialize-textarea"
+                value="Earth One"
+              ></textarea>
+              <label for="textarea1">Address</label>
+            </div>
+            <div class="input-field col s12 l4">
+              <input
+                type="text"
+                id="last_name"
+                class="validate"
+                value="Nigeria"
+              />
+              <label for="last_name">Country</label>
+            </div>
+            <div class="input-field col s12 l4">
+              <input
+                type="text"
+                id="last_name"
+                class="validate"
+                value="Port Harcourt"
+              />
+              <label for="last_name">City</label>
+            </div>
+            <div class="input-field col s12 l4">
+              <input type="text" id="last_name" class="validate" />
+              <label for="last_name">Portal</label>
+            </div>
+            <div class="input-field col s12">
+              <textarea
+                id="textarea1"
+                class="materialize-textarea"
+                value="Oh so, your weak rhyme You doubt I'll bother, reading into it"
+              ></textarea>
+              <label for="textarea1">About Me</label>
+            </div>
+            <div class="center" style="padding-bottom: 23px">
+              <button
+                class="btn waves-effect waves-light center"
+                type="submit"
+                name="action"
+              >
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer class="page-footer teal">
+      <div class="footer-copyright col s12">
+        <div class="container">
+          © 2020, Made by Azure Code
+          <a class="grey-text text-lighten-4 right col s12" href="#!"
+            >michael.esenwa@gmail.com</a
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="public/js/materialize.js"></script>
+    <script>
+      M.AutoInit();
+    </script>
+  </body>
+</html>
